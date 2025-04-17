@@ -40,12 +40,12 @@ include '../includes/header.php';
       </div>
 
       <div class="mb-3">
-        <label for="min_charge" class="form-label" hidden>Min Charge</label>
+        <label for="min_charge" class="form-label" id="label_mincharge" hidden>Min Charge</label>
         <input type="number" class="form-control" id="min_charge" name="min_charge" value="<?= $sablon['min_charge'] ?>" required hidden>
       </div>
 
       <div class="mb-3">
-        <label for="harga" class="form-label" hidden>Harga</label>
+        <label for="harga" class="form-label" id="label_harga" hidden>Harga</label>
         <input type="number" class="form-control" id="harga" name="harga" value="<?= $sablon['harga'] ?>" required hidden>
       </div>
 
